@@ -1,5 +1,5 @@
 # Auto_interactions
-Python scripts for automating human interactions
+Python scripts for automating human interactions using pynput
 
 
 - counting.py <br>
