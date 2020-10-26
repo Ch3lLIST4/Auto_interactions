@@ -7,7 +7,7 @@ keyboard = Controller()
 
 time.sleep(2)
 
-number = 1;
+number = 1
 
 while (True):
 	for digit in str(number):
