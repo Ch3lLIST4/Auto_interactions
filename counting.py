@@ -1,7 +1,6 @@
 # pip install pynput 
 from pynput.keyboard import Key, Controller
 import time
-import hashlib 
 
 
 COOLDOWN = 5 # server cooldown
