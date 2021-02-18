@@ -5,7 +5,8 @@ import hashlib
 
 
 COOLDOWN = 5 # server cooldown
-NUMBER = 1 # starting number
+DELAY = 2 # server delay
+NUMBER = 52727 # starting number
 
 
 keyboard = Controller()
@@ -21,4 +22,4 @@ while (True):
 	keyboard.release(Key.enter)
 	
 	NUMBER = NUMBER + 1
-	time.sleep(COOLDOWN + 1)
+	time.sleep(COOLDOWN + DELAY)
